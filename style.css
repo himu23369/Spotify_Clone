@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Ubuntu&display=swap');
+
+body {
+    /* background-color: rgb(52, 44, 44); */
+    background: url("images/backgd.avif");
+    overflow: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+nav ul {
+    color: whitesmoke;
+    display: flex;
+    list-style: none;
+    background-color: black;
+    height: 8vh;
+    align-items: center;
+    padding-top: 6px;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+
+.brand img {
+    height: 5vh;
+    padding: 0 6px;
+}
+
+.container {
+    min-height: 60.3vh;
+    background-color: rgba(0, 0, 0, 0.347);
+    color: aliceblue;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 70%;
+    margin: 20px auto;
+    /* border: 3px solid gold; */
+    border: 3px solid rgb(31, 212, 7);
+    border-radius: 28px;
+    padding: 34px;
+    background-image: url("images/Guitar.avif");
+}
+
+.bottom {
+    position: sticky;
+    background-color: black;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.icons {
+    padding-bottom: 4px;
+}
+
+.icons i {
+    cursor: pointer;
+    margin: 0 6px;
+}
+
+#progressBar {
+    width: 80vw;
+    cursor: pointer;
+    border-radius: 200px;
+}
+
+.songItemContainer {
+    margin-top: 34px;
+}
+
+.songItem {
+    height: 40px;
+    display: flex;
+    /* padding: ; */
+    /* background-color: goldenrod; */
+    /* background-color: rgb(65, 57, 57); */
+    /* background: url("images/backgd.avif"); */
+    background: url("images/Guitar.avif");
+    width: 38%;
+    /* color: black; */
+    color: whitesmoke;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid rgb(22, 220, 22);
+}
+
+.songItem img {
+    width: 50px;
+    height: 40px;
+    margin: 0 20px;
+    border-radius: 100px;
+}
+
+.fa-solid {
+    padding: 15px;
+}
+
+.nameSong {
+    font-size: 1rem;
+    font-weight: bolder;
+    font-family: 'Hind', sans-serif
+}
+
+.songPlay {
+    cursor: pointer;
+}
